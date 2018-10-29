@@ -30,6 +30,13 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
+jacocoTestReport {
+    reports {
+        xml.enabled true
+        html.enabled true
+    }
+}
+
 jar {
     manifest {
         attributes 'Main-Class': 'ohtu.ohtuvarasto.Main'
