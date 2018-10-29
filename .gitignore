@@ -3,3 +3,7 @@
 
 # Ignore 'build' directory
 build/
+
+# Ignore Gradle private files
+.gradle/
+.nb-gradle/
