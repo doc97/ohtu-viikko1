@@ -7,3 +7,8 @@ build/
 # Ignore Gradle private files
 .gradle/
 .nb-gradle/
+gradle.properties
+
+# Ignore IntelliJ IDEA files
+*.iml
+.idea/
