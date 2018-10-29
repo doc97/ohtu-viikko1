@@ -1,14 +1,10 @@
 package ohtu.ohtuvarasto;
 
-import org.junit.*;
-import static org.junit.Assert.*;
-
-import org.junit.After;
-import org.junit.AfterClass;
 import org.junit.Before;
-import org.junit.BeforeClass;
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.fail;
 
 public class VarastoTest {
 
@@ -18,6 +14,11 @@ public class VarastoTest {
     @Before
     public void setUp() {
         varasto = new Varasto(10);
+    }
+
+    @Test
+    public void tarkoituksellaEiToimi() {
+        fail("Tarkoitus on ettei tämä testi mene läpi!");
     }
 
     @Test
