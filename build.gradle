@@ -15,6 +15,9 @@ apply plugin: 'application'
 // Apply the JaCoCo plugin to add support for test line coverage
 apply plugin: 'jacoco'
 
+// Apply the checkstyle plugin to add support for style checks
+apply plugin: 'checkstyle'
+
 // Define the main class for the application
 mainClassName = 'ohtu.ohtuvarasto.main.Main'
 
